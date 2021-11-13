@@ -24,7 +24,7 @@ Control Server Fivem From Discord
 * Start Resource
 * Set Admin Level
 * Set Weather
-* Custom Command
+* Custom Command (Soon)
 * .....
 
 
