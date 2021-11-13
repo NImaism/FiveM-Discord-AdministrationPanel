@@ -81,20 +81,20 @@ end)
 ```
 
 --------------------------------------------------------
-### Config.json
+### Example Config
 
 ```json
 {
-    "Token":"", // Token Bot Discord
-    "Perfix":"", // Perfix Bot
+    "Token":"OTA2ND2kxMjcyNsjQ1MTkzNzQ5.YY6ZZyQ.vOXIKk7NMm5VVg5GxWyRBIHm1fUo", // Token Bot Discord
+    "Perfix":"-", // Perfix Bot
     "Status": ["IsM Company", "By NImaism"], // Status
     "Users": [
         {
             "Server": "Sosis Land", // Server Name
             "Owner": "NImaism", // Server Owner Name
             "Admins":[841250866895781918], // Discord User Id For Use Command
-            "Ip":"", // Ip:Port Server
-            "Site":"https://servers.fivem.net/servers/detail/a89p49" // Link Server In Fivem Server List Site
+            "Ip":"5.63.10.232:30120", // Ip:Port Server
+            "Site":"https://servers.fivem.net/servers/detail/a89pf49" // Link Server In Fivem Server List Site
 
         }
     ]
