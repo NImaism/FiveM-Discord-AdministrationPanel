@@ -52,7 +52,7 @@ Python Libraries
  * 1 Create Bot & Get Token Bot From https://discord.com/developers/applications
  * 2 Install Python Libraries
  * 3 put folder in resource folder in your fivem server
- * 4 in server.cfg write add_ace resource.IsM Panel command allow  
+ * 4 in server.cfg write add_ace resource.IsM_Panel command allow  
  * 5 config your bot in config.json
  * 6 run cmd in folder & type python main.py
  * 7 and start resource
