@@ -24,7 +24,9 @@ Control Server Fivem From Discord
 * Start Resource
 * Set Admin Level
 * Set Weather
-* Custom Command (Soon)
+* Custom Command
+* With Show Count Of Player In Server
+* Server Build
 * .....
 
 
@@ -55,11 +57,45 @@ Python Libraries
  * 6 run cmd in folder & type python main.py
  * 7 and start resource
  * 8 Enjoy !
- 
+ ---------------------------------------------------------
+### Custom Command 
+In Admin-Cmd.py Write:
+
+```py
+@commands.command()
+@has_permissions(administrator=True)
+async def CommandName(self, ctx, id, perm):
+	if cheakadmin(ctx.author.id):
+		request(f"CommandName {arguments} {arguments}")
+		await ctx.send(">>> CommandName Has Ben Successful")
+```      
+In You Script For Command Write:
+```lua
+RegisterCommand("CommandName", function(source, args)
+    if source == 0 then
+        print(args[1])
+        -- ....
+    end   
+end)
+
+```
+
+
+
+
  ---------------------------------------------------------
  
  ### Media
-* Coming Soon
+ 
+<p align="left">
+  <img src="https://s4.uupload.ir/files/screenshot_2021-11-13_105714_b3nf.png" width="350" alt="accessibility text">
+  <img src="https://s4.uupload.ir/files/screenshot_2021-11-13_110131_ylot.png" width="350" alt="accessibility text">
+  <img src="https://s4.uupload.ir/files/screenshot_2021-11-13_105911_20pg.png" width="350" alt="accessibility text">
+  <img src="https://s4.uupload.ir/files/screenshot_2021-11-13_110020_k7fp.png" width="350" alt="accessibility text">
+  <img src="https://s4.uupload.ir/files/screenshot_2021-11-13_110052_wt2s.png" width="350" alt="accessibility text">
+  <img src="https://s4.uupload.ir/files/screenshot_2021-11-13_110107_dok.png" width="350" alt="accessibility text">
+
+</p>
  
 -----------------------------------------------------------  
 
