@@ -80,6 +80,27 @@ end)
 
 ```
 
+--------------------------------------------------------
+### Config.json
+
+```json
+{
+    "Token":"", // Token Bot Discord
+    "Perfix":"", // Perfix Bot
+    "Status": ["IsM Company", "By NImaism"], // Status
+    "Users": [
+        {
+            "Server": "Sosis Land", // Server Name
+            "Owner": "NImaism", // Server Owner Name
+            "Admins":[841250866895781918], // Discord User Id For Use Command
+            "Ip":"", // Ip:Port Server
+            "Site":"https://servers.fivem.net/servers/detail/a89p49" // Link Server In Fivem Server List Site
+
+        }
+    ]
+}
+
+```
 
 
 
