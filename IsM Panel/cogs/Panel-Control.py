@@ -46,10 +46,10 @@ class Function(commands.Cog):
             ]
         )
         while True:
-            self.response = await self.client.wait_for("button_click")
-            if self.response.channel == ctx.channel and self.response.author.id == ctx.author.id:
-                if self.response.component.label == 'Help':
-                    await self.response.send(embed=Help)
+            response = await self.client.wait_for("button_click")
+            if response.channel == ctx.channel and response.author.id == ctx.author.id:
+                if response.component.label == 'Help':
+                    await response.send(embed=Help)
 
 
 def setup(client):
