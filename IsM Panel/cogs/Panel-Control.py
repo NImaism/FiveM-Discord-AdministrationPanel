@@ -37,7 +37,7 @@ class Function(commands.Cog):
         Help.add_field(name="setperm", value='setperm id level', inline=False)
         Help.add_field(name="time", value='time Hours Minutes', inline=True)
         Help.add_field(name="weather", value='weather type', inline=True)
-        Help.set_footer(text="Develop By IsM Company")
+        Help.set_footer(text="Develop By Nimaism#4092")
         Help.set_image(url=cheakbanner(cheakip(ctx.author.id)))
         await ctx.send(
             embed=PanelMouadel,
